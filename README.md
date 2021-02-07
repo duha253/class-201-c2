@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+## Basic JavaScript Instructions
 
-You can use the [editor on GitHub](https://github.com/duha253/class-201-c2/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+#### The HTML Variable element
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The HTML Variable element (var) represents the name of a variable in a mathematical expression or a programming context. It's typically presented using an italicized version of the current typeface, although that behavior is browser-dependent.
 
-### Markdown
+- Variable names can't start with a number. So first_number is OK, but not 1st_number. You can have numbers elsewhere in the variable name, just not at the start.
+- Variable names can't be the same as Java keywords. There are quite a lot of these, and they will turn blue in NetBeans, like int above.
+- You can't have spaces in your variable names. The variable declaration int first number will get you an error. We've used the underscore character, but it's common practise to have the first word start with a lowercase letter and the second or subsequent words in uppercase: firstNumber, myFirstNumber
+- Variable names are case sensitive. So firstNumber and FirstNumber are different variable names.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### USING A VARIABLE TO STORE A STRING
 
-```markdown
-Syntax highlighted code block
+A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+#### SHORTHAND FOR CREATING VARIABLES
 
-**Bold** and _Italic_ and `Code` text
+** Programmers sometimes use shorthand to create variables. Here are three variations of how to declare variables and assign
+them values:
+1. Variables are declared and values assigned in the same statement.
 
-[Link](url) and ![Image](src)
-```
+2. Three variables are declared on the same line, then values assigned to each.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3. Two variables are declared and assigned values on the same line. Then one is declared and assigned a value on the next line. (The third example shows two
+numbers, but you can declare variables that hold different types of data on the same line, e.g., a string and a number.)
+4 . Here, a variable is used to hold a reference to an element in the HTML page. This allows you to work directly with the element stored in that variable. 
 
-### Jekyll Themes
+## summary
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duha253/class-201-c2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+ - A script is made up of a series of statements. Each statement is like a step in a recipe.
+ 
+ - Scripts contain very precise instructions. For example,you might specify that a value must be remembered before creating a calculation using that value.
+ 
+ - Variables are used to temporarily store pieces of information used in the script.
+ 
+ - Arrays are special types of variables that store more than one piece of related information.
+ 
+ - JavaScript distinguishes between numbers (0-9), strings (text), and Boolean values (true or false).
+ 
+ - Expressions evaluate into a single value. 
+ 
+ - Expressions rely on operators to calculate a value. 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
